@@ -82,6 +82,7 @@ public class SqlConnector {
     }
 
     public static Connection getSqlConnection() throws Exception {
+        Class.forName("org.firebirdsql.jdbc.FBDriver");
         return DriverManager.getConnection(connectionString, dbUsername, dbPassword);
     }
 }
