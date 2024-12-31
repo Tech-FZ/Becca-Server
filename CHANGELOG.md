@@ -3,6 +3,7 @@
 ## Version 2024.12.0.1.5
 
 - Added entities
+- Renamed "srv" to "cli".
 
 ## Version 2024.12.0.0.4
 
