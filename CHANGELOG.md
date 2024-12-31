@@ -1,5 +1,9 @@
 # Becca Server Changelog
 
+## Version 2024.12.0.1.5
+
+- Added entities
+
 ## Version 2024.12.0.0.4
 
 - Added driver
