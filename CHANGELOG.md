@@ -4,6 +4,7 @@
 
 - Added entities
 - Renamed "srv" to "cli".
+- Made a main menu for the cli.
 
 ## Version 2024.12.0.0.4
 
