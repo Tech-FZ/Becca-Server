@@ -29,7 +29,7 @@ public class Main {
     }
 
     public static void mainMenu() {
-        System.out.println("Welcome to Becca CLI.");
+        System.out.println("Welcome to Becca Manager CLI.");
         MainMenuOptions mmo = MainMenuOptions.Invalid;
 
         do {

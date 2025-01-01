@@ -5,6 +5,7 @@
 - Rename cli to mgr.cli
 - Rename entities to core
 - Move the SqlConnector to core.
+- Now the mgr.cli main menu says "Becca Manager CLI".
 
 ## Version 2025.1.0.0.6
 
