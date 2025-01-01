@@ -1,7 +1,8 @@
-package com.lucienrowan.becca.cli;
+package com.lucienrowan.becca.mgr.cli;
 
 import java.sql.*;
 import java.util.Scanner;
+import com.lucienrowan.becca.core.*;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.lucienrowan.becca.cli;
+package com.lucienrowan.becca.mgr.cli;
 
 public enum MainMenuOptions {
     RegisterNewComputer,

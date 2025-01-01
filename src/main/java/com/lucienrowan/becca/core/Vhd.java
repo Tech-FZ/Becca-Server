@@ -1,4 +1,4 @@
-package com.lucienrowan.becca.entities;
+package com.lucienrowan.becca.core;
 
 public class Vhd {
     public int id;

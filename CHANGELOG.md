@@ -1,5 +1,11 @@
 # Becca Server Changelog
 
+## Version 2025.1.0.1.7
+
+- Rename cli to mgr.cli
+- Rename entities to core
+- Move the SqlConnector to core.
+
 ## Version 2025.1.0.0.6
 
 - Added some stuff to .gitignore regarding JAR output.

@@ -1,4 +1,4 @@
-package com.lucienrowan.becca.cli;
+package com.lucienrowan.becca.core;
 
 import java.sql.*;
 import java.util.Scanner;
