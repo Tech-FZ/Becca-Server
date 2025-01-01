@@ -6,12 +6,26 @@ import com.lucienrowan.becca.core.*;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println(System.getProperty("java.class.path"));
         SqlConnector.setConnectionSettings();
 
         // Test connection
         try {
             Connection connection = SqlConnector.getSqlConnection();
-        } catch (Exception e) {
+            System.out.println("Connection established!");
+        }
+
+        catch (ClassNotFoundException e) {
+            System.out.println("JDBC Driver not found: " + e.getMessage());
+            System.exit(e.hashCode());
+        }
+
+        catch (SQLException e) {
+            System.out.println("SQL Error: " + e.getMessage());
+            System.exit(e.hashCode());
+        }
+
+        catch (Exception e) {
             System.out.println(e.getMessage());
             System.exit(e.hashCode());
         }

@@ -1,5 +1,7 @@
 package com.lucienrowan.becca.core;
 
+import java.net.URL;
+import java.net.URLClassLoader;
 import java.sql.*;
 import java.util.Scanner;
 import java.io.*;
@@ -82,7 +84,11 @@ public class SqlConnector {
     }
 
     public static Connection getSqlConnection() throws Exception {
-        Class.forName("org.firebirdsql.jdbc.FBDriver");
+        File file = new File("./jaybird-6.0.0.jar");
+        URL url = file.toURI().toURL();
+        URLClassLoader classLoader = new URLClassLoader(new URL[]{url}, SqlConnector.class.getClassLoader());
+        Class.forName("org.firebirdsql.jdbc.FBDriver", true, classLoader);
+        DriverManager.registerDriver(new org.firebirdsql.jdbc.FBDriver());
         return DriverManager.getConnection(connectionString, dbUsername, dbPassword);
     }
 }

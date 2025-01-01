@@ -6,6 +6,8 @@
 - Rename entities to core
 - Move the SqlConnector to core.
 - Now the mgr.cli main menu says "Becca Manager CLI".
+- gitignore has some more stuff to ignore.
+- The SQL Connection had to be re-fixed.
 
 ## Version 2025.1.0.0.6
 

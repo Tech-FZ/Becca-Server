@@ -5,7 +5,9 @@ target/
 out/
 out/artifacts/
 out/artifacts/BeccaSrv_jar
-out/artifacts/BeccaSrv_jar/*
+out/artifacts/BeccaSrv_jar/BeccaSrv.jar
+out/artifacts/BeccaSrv_jar/BeccaSrv.jar.sha256
+out/artifacts/BeccaSrv_jar/jaybird-6.0.0.jar
 
 ### IntelliJ IDEA ###
 .idea/modules.xml

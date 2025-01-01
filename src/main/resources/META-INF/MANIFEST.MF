@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
 Main-Class: com.lucienrowan.becca.mgr.cli.Main
+Class-Path: ./BeccaSrv.jar/jaybird-6.0.0.jar
 
