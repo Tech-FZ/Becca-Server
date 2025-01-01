@@ -1,5 +1,9 @@
 # Becca Server Changelog
 
+## Version 2025.1.0.0.6
+
+- Added some stuff to .gitignore regarding JAR output.
+
 ## Version 2024.12.0.1.5
 
 - Added entities

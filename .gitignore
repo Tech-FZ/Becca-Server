@@ -3,6 +3,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 out/
+out/artifacts/
+out/artifacts/BeccaSrv_jar
+out/artifacts/BeccaSrv_jar/*
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
