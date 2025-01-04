@@ -88,7 +88,7 @@ public class SqlConnector {
         URL url = file.toURI().toURL();
         URLClassLoader classLoader = new URLClassLoader(new URL[]{url}, SqlConnector.class.getClassLoader());
         Class.forName("org.firebirdsql.jdbc.FBDriver", true, classLoader);
-        DriverManager.registerDriver(new org.firebirdsql.jdbc.FBDriver());
+        //DriverManager.registerDriver(new org.firebirdsql.jdbc.FBDriver());
         return DriverManager.getConnection(connectionString, dbUsername, dbPassword);
     }
 }

@@ -7,7 +7,9 @@
 - Move the SqlConnector to core.
 - Now the mgr.cli main menu says "Becca Manager CLI".
 - gitignore has some more stuff to ignore.
-- The SQL Connection had to be re-fixed.
+- The SQL Connection had to be re-fixed twice.
+- The classpath on the manifest had to be fixed as well.
+  - Now I came across an error this code cannot fix.
 
 ## Version 2025.1.0.0.6
 
